@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+  color: #1e212c;
+}
+.subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #fddccb;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo span {
+  color: #ff4242;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-weight: 500;
+}
+.header-btns {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.btn-login {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hero {
+  background-color: #fddccb;
+  padding: 40px 80px 60px 80px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text h1 {
+  font-size: 42px;
+  max-width: 500px;
+  margin: 20px 0;
+}
+.hero-btns {
+  display: flex;
+  gap: 15px;
+}
+.stats-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 60px;
+}
+.stats-list li span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.why-us {
+  display: flex;
+  padding: 80px;
+  gap: 60px;
+  align-items: center;
+}
+.why-list {
+  list-style: none;
+  margin: 20px 0;
+}
+.why-list li {
+  margin-bottom: 10px;
+}
+.courses {
+  padding: 80px;
+}
+.courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.course-card {
+  display: flex;
+  border: 1px solid #e5e8ed;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.course-card img {
+  width: 180px;
+  object-fit: cover;
+}
+.card-info {
+  padding: 20px;
+}
+.price {
+  color: #ff4242;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.price span {
+  color: #787a80;
+  font-weight: normal;
+}
+.benefits {
+  padding: 80px;
+  text-align: center;
+}
+.benefits-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  margin: 30px 0;
+}
+.benefits-tabs li {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.benefits-tabs li.active {
+  border-color: #ff4242;
+  color: #ff4242;
+}
+.benefit-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.events {
+  background-color: #fddccb;
+  padding: 80px;
+  text-align: center;
+}
+.events-list {
+  list-style: none;
+  margin-top: 40px;
+}
+.event-item {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.date span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4242;
+}
+.certificate {
+  display: flex;
+  padding: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.team, .blog {
+  padding: 80px;
+  text-align: center;
+}
+.team-grid, .blog-grid {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.team-card, .blog-card {
+  text-align: left;
+}
+.blog-meta {
+  font-size: 12px;
+  color: #787a80;
+  margin: 10px 0 5px 0;
+}
+.testimonials {
+  background: #f4f5f7;
+  padding: 80px;
+  text-align: center;
+}
+.testimonial-box {
+  background: white;
+  padding: 40px;
+  max-width: 600px;
+  margin: 30px auto 0 auto;
+  border-radius: 8px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.subscribe {
+  background: #fddccb;
+  padding: 60px;
+  text-align: center;
+}
+.sub-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.sub-form input {
+  padding: 12px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+.footer {
+  background: #1e212c;
+  color: white;
+  padding: 60px 80px 20px 80px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+.footer-links li {
+  margin-bottom: 8px;
+  color: #b3b6be;
+}
+.footer-bottom {
+  border-top: 1px solid #2e323d;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  color: #787a80;
+  font-size: 14px;
+}
+.btn-orange {
+  background-color: #ff4242;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn-outline {
+  border: 1px solid #ff4242;
+  color: #ff4242;
+  background: transparent;
+  padding: 10px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  color: white;
+}
+.marketing { background-color: #03cea4; }
+.management { background-color: #5a87fc; }
